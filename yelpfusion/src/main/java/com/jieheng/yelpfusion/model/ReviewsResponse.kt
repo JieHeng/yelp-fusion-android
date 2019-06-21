@@ -1,0 +1,9 @@
+package com.jieheng.yelpfusion.model
+
+import com.google.gson.annotations.SerializedName
+
+data class ReviewsResponse (
+    @SerializedName("reviews") val reviews : List<Review>,
+    @SerializedName("total") val total : Int,
+    @SerializedName("possible_languages") val possibleLanguages : List<String>
+)
