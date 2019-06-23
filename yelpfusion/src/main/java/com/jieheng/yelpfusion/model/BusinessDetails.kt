@@ -10,7 +10,7 @@ data class BusinessDetails(
     @SerializedName("is_claimed") val is_claimed : Boolean,
     @SerializedName("is_closed") val is_closed : Boolean,
     @SerializedName("url") val url : String,
-    @SerializedName("phone") val phone : Int,
+    @SerializedName("phone") val phone : String,
     @SerializedName("display_phone") val display_phone : String,
     @SerializedName("review_count") val review_count : Int,
     @SerializedName("categories") val categories : List<Category>,

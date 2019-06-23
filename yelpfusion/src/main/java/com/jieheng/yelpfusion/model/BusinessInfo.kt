@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class BusinessInfo (
     @SerializedName("rating") val rating : Double,
     @SerializedName("price") val price : String,
-    @SerializedName("phone") val phone : Int,
+    @SerializedName("phone") val phone : String,
     @SerializedName("id") val id : String,
     @SerializedName("alias") val alias : String,
     @SerializedName("categories") val categories : List<Category>,
