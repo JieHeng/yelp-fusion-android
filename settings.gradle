@@ -1,1 +1,1 @@
-include ':app', ':yelpfusion'
+include ':app', ':yelp-fusion'
