@@ -6,6 +6,7 @@ Step 1. Add the dependency
 ```
 dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
+    implementation 'com.github.jieheng:yelp-fusion-android:1.0.0'
 }
 ```
 Step 2. Add INTERNET permission to manifest file
